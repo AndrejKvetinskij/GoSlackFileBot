@@ -8,8 +8,9 @@ import (
 )
 
 func main() {
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-5238373075283-5241046913362-eskTBILbhj8H8zqZFUWWiTe3")
+	os.Setenv("SLACK_BOT_TOKEN", "xoxb-5238373075283-5241046913362-s3Y0U8WQaxI2Roys7TG9LF1Z")
 	os.Setenv("CHANNEL_ID", "C056XGJ4TDK")
+
 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	channelArr := []string{os.Getenv("CHANNEL_ID")}
 	fileArr := []string{"RangeRover.pdf"}
