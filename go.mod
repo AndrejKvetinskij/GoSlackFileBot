@@ -1,4 +1,4 @@
-module github.com/AndrejKvetinskij/GoSlacFileBot
+module github.com/AndrejKvetinskij/GoSlackFileBot
 
 go 1.18
 
